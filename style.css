@@ -1,16 +1,19 @@
-body{
+html{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+body{
 	font: 15px/1.5 Arial, Helvetica, sans-serif;
-	min-width: 260px;
 }
 
 #main{
 	border-radius: 5px;
-	margin: 20px 10px;
+	margin: 20px auto;
 	text-align: center;
 	background: #DCDCDC;
+	padding: 15px;
 }
 
 h1{
@@ -19,16 +22,18 @@ h1{
 }
 
 img{
-	max-width: 99%;
+	max-width: 100%;
+	display: block;
 	height: auto;
 	margin: auto;
 }
 
 #img-div{
-	background-color:#fff;
-	margin: 5px;
-	padding-top: 5px;
-	padding-bottom: 10px;
+	background:#fff;
+	margin: -5px;
+	margin-top: 20px;
+	border:5px solid #fff;
+	width: 100%;
 }
 
 #tribute-info{
@@ -48,7 +53,7 @@ li{
 #quote{
 	font-style: italic;
 	display: block;
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 0 auto;
 	text-align: center;
 }
